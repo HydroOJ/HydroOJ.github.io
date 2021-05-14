@@ -58,7 +58,7 @@ module.exports = {
         link: 'https://vuepress-theme-reco.recoluan.com'
       },
     ],
-    logo: '/logo.webp',
+    logo: '/logo.png',
     // 搜索设置
     search: true,
     searchMaxSuggestions: 10,
@@ -69,7 +69,7 @@ module.exports = {
     // 作者
     author: 'reco_luan',
     // 作者头像
-    authorAvatar: '/avatar.webp',
+    authorAvatar: '/avatar.png',
     // 备案号
     record: 'xxxx',
     // 项目开始时间
