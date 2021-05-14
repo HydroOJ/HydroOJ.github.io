@@ -11,13 +11,13 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/', icon: 'reco-home' },
       { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
-      { text: 'Docs', 
+      { text: 'Docs',
         icon: 'reco-message',
         items: [
           { text: 'vuepress-reco', link: '/docs/theme-reco/' }
         ]
       },
-      { text: 'Contact', 
+      { text: 'Contact',
         icon: 'reco-message',
         items: [
           { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' }
@@ -31,7 +31,7 @@ module.exports = {
         'plugin',
         'api'
       ]
-    },  
+    },
     type: 'blog',
     // 博客设置
     blogConfig: {
@@ -58,7 +58,7 @@ module.exports = {
         link: 'https://vuepress-theme-reco.recoluan.com'
       },
     ],
-    logo: '/logo.png',
+    logo: '/logo.webp',
     // 搜索设置
     search: true,
     searchMaxSuggestions: 10,
@@ -69,7 +69,7 @@ module.exports = {
     // 作者
     author: 'reco_luan',
     // 作者头像
-    authorAvatar: '/avatar.png',
+    authorAvatar: '/avatar.webp',
     // 备案号
     record: 'xxxx',
     // 项目开始时间
@@ -96,4 +96,4 @@ module.exports = {
   markdown: {
     lineNumbers: true
   }
-}  
+}
