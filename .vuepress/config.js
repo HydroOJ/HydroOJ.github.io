@@ -95,5 +95,16 @@ module.exports = {
 	},
 	markdown: {
 	  lineNumbers: true
-	}
+	},
+	plugins: [
+		[
+		  'vuepress-plugin-mathjax',
+		  {
+			target: 'chtml',
+			macros: {
+			  '*': '\\times',
+			},
+		  },
+		],
+	  ],
   }
