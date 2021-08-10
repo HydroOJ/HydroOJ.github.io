@@ -6,10 +6,10 @@ date: 2021-03-19
 
 |     #      |              CPU              |     主频      | 评测机部署方式 |      评测机数量      |
 | :--------: | :---------------------------: | :-----------: | :------------: | :------------------: |
-|    UOJ     |  Intel Xeon Platinum 8269CY   | 2.5GHz~3.2GHz |       -        |          1           |
+|    UOJ     |  Intel Xeon Platinum 8269CY   | 2.5GHz~3.2GHz |     阿里云     |          1           |
 | CodeForces |      Intel Core i3-8100       |    3.6GHz     |   PC（推测）   |          -           |
 |   Luogu    | Intel Xeon Platinum 8369HB/HC | 3.3GHz~3.8GHz |     阿里云     | $\infin$（弹性伸缩） |
-|  HydroOJ   | Intel Xeon Platinum 8369HB/HC | 3.3GHz~3.8GHz |     阿里云     | $\infin$（弹性伸缩） |
+|  HydroOJ   |     Intel® Xeon® Gold 6133    | 3.3GHz~3.8GHz |     腾讯云     |          2           |
 |  LibreOJ   |       AMD Ryzen 5 3600X       | 3.8GHz~4.4GHz |       PC       |          1           |
 
 由于 51nod 评测显示结果过少，无法获取其 CPU 信息。
