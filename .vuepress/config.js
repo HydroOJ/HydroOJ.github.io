@@ -1,6 +1,6 @@
 module.exports = {
-    title: "vuepress-theme-reco",
-    description: 'A simple and beautiful vuepress blog theme .',
+    title: "HydroOJ",
+    description: '新一代高效强大的信息学在线测评系统',
     dest: 'public',
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -15,14 +15,7 @@ module.exports = {
                 text: 'Docs',
                 icon: 'reco-message',
                 items: [
-                    { text: 'vuepress-reco', link: '/docs/announcement/' }
-                ]
-            },
-            {
-                text: 'Contact',
-                icon: 'reco-message',
-                items: [
-                    { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' }
+                    { text: '公告', link: '/docs/announcement/' }
                 ]
             }
         ],
@@ -73,7 +66,7 @@ module.exports = {
         // 作者头像
         authorAvatar: '/avatar.png',
         // 备案号
-        record: 'xxxx',
+        // record: 'xxxx',
         // 项目开始时间
         startYear: '2017'
         /**
